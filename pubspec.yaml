@@ -48,6 +48,7 @@ dependencies:
   video_player: ^2.7.0
   flutter_inappwebview: ^5.7.2+3
   shimmer: ^3.0.0
+  google_fonts: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -77,9 +78,15 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/icons/angle-right.svg
+    - assets/icons/play.svg
+    - assets/images/cinema.png
+    - assets/images/entertainment.png
+    - assets/images/play.png
+    - assets/images/bg_onboard.jpg
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
