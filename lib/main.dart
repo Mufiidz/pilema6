@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pilema6/di/injection.dart';
 
-void main() {
+void main() async {
+  setupDI();
   runApp(const MyApp());
 }
 
